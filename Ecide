@@ -1,0 +1,15 @@
+# use a fstring for above 
+    kinshasa = {
+    'commune': 'Nik',
+    'superficie': 32,
+    'Nbr de personnes': 'male'
+}
+Bandundu = {
+    'commune': 'Nik',
+    'superficie': 32,
+    'Nbr de personnes': 'male'
+}
+Ecide = [kinshasa, Bandundu]
+for person in Ecide:
+    print(f'{Ecide.get("commune")} is {Ecide.get("superficie")} and is {Ecide.get("Nbr de personnes")}.')
+    
