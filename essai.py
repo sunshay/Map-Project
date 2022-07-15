@@ -8,6 +8,6 @@ datas = json.loads(f.read())
 
 for x in datas['properties']:
     print(datas)
-
+    
 print(datas)
 f.close()
