@@ -2,8 +2,8 @@ b = {'four': [4, 4.0], 'two': 'to', 'three': 3.0, 'one': 1}
 print(b.keys()) 
 print(b.values())
 print(b.items()) #access each key-value pair within a dictionary using the items()
-#dict_variable = {key:value for (key,value) in dictonary.items()}
-
+dictcomp = {k:v*2 for (k,v) in b.items()} #dict_variable = {key:value for (key,value) in dictonary.items()}
+print(dictcomp)
 
 print(type(b)) 
 b['one'] = 1.0 # append in dictionnary
