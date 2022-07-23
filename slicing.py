@@ -1,3 +1,5 @@
+# reverse a word
+
 # def slicing(x):
 #     return x[::-1]
 
